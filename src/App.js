@@ -1,17 +1,20 @@
 import "./App.css";
 import { Navbar, ProductCard, Filter } from "components";
-import data from "utils/data.json";
+import { useFilter } from "context/filter-context";
+import { useFiltered } from "hooks/useFiltered";
 
 function App() {
-  const filteredData = data.products;
-  console.log(filteredData);
+  const { data } = useFiltered();
+
+  // console.log(data);
+
   return (
     <div className='App'>
       <Navbar />
       <main className='main'>
         <Filter />
         <section className='products-display'>
-          {filteredData?.map((product) => (
+          {data?.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </section>

@@ -1,7 +1,7 @@
 import React from "react";
 
 export function ProductCard({ product }) {
-  console.log(product);
+
   return (
     <div className='card align-items-center'>
       <div className='card-header'>

@@ -9,7 +9,7 @@ export const FilterProvider = ({ children }) => {
     filterInitialState
   );
   return (
-    <FilterContext.Provider value={(filteredProducts, dispatchFilters)}>
+    <FilterContext.Provider value={{ filteredProducts, dispatchFilters }}>
       {children}
     </FilterContext.Provider>
   );
