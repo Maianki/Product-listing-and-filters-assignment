@@ -1,4 +1,3 @@
-import React from "react";
 import { useFilter } from "context/filter-context";
 export function useFiltered() {
   const {
