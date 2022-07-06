@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Navbar, ProductCard, Filter } from "components";
+import data from "utils/data.json";
 
 function App() {
+  const filteredData = data.products;
+  console.log(filteredData);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Navbar />
+      <main className='main'>
+        <Filter />
+        <section className='products-display'>
+          {filteredData?.map((product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
+        </section>
+      </main>
     </div>
   );
 }

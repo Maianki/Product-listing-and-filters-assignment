@@ -1,0 +1,68 @@
+
+ {
+    "products" : [
+        {
+            "id" : "1",
+            "name" : "Solid Men Round Neck Multicolor T-Shirt",
+            "idealFor" : "men",
+            "size" : "M",
+            "brand" : "FTX",
+            "price" : "199",
+            "img" : "https://rukminim1.flixcart.com/image/580/696/l09w8sw0/t-shirt/o/a/i/m-tst-ab-36-54-ftx-original-imagc36nhgqatpfu.jpeg?q=50"
+        },
+        {
+            "id" : "7",
+            "name" : "Embellished Fashion Georgette, Pure Silk Saree",
+            "idealFor" : "women",
+            "size" : "M",
+            "brand" : "FTX",
+            "price" : "999",
+            "img" : "https://rukminim1.flixcart.com/image/880/1056/krkyt8w0/sari/y/p/v/free-wedding-saree-ecolors-fab-unstitched-original-imag5c8efuhrjz9t.jpeg?q=50"
+        },
+        {
+            "id" : "2",
+            "name" : "Color Block Men Round Neck Black T-Shirt",
+            "idealFor" : "men",
+            "size" : "L",
+            "brand" : "FARBOT",
+            "price" : "499",
+            "img" :"https://rukminim1.flixcart.com/image/880/1056/kri3xjk0/t-shirt/g/x/3/xl-qw23ws-thefashionplus-original-imag59v5p42s4jpa.jpeg?q=50"
+        },
+        {
+            "id" : "3",
+            "name" : "Striped Men Round Neck Blue T-Shirt",
+            "idealFor" : "men",
+            "size" : "S",
+            "brand" : "FTX",
+            "price" : "299",
+            "img" :"https://rukminim1.flixcart.com/image/880/1056/kyxb9u80/t-shirt/k/n/y/xl-t67-nbwh-eyebogler-original-imagbfyc3rkzaj2y.jpeg?q=50"
+        },
+        {
+            "id" : "4",
+            "name" : "Girls Lehenga Choli Ethnic Wear",
+            "idealFor" : "women",
+            "size" : "S",
+            "brand" : "FARBOT",
+            "price" : "799",
+            "img" :"https://rukminim1.flixcart.com/image/880/1056/kqco5u80/kids-lehenga-choli/f/e/k/3-4-years-fp-k-bindi-f-plus-fashion-original-imag4dqfhyh3fhyj.jpeg?q=50"
+        },
+        {
+            "id" : "5",
+            "name" : "Solid Bollywood Satin, Silk Blend Saree",
+            "idealFor" : "women",
+            "size" : "L",
+            "brand" : "VILLAGIUS",
+            "price" : "999",
+            "img" :"https://rukminim1.flixcart.com/image/880/1056/kpinwy80/sari/g/h/4/free-awesome-wine-villagius-unstitched-original-imag3qh5bqf38hr5.jpeg?q=50"
+        },
+        {
+            "id" : "6",
+            "name" : "Woven Kanjivaram Cotton Silk Saree",
+            "idealFor" : "women",
+            "size" : "M",
+            "brand" : "VILLAGIUS",
+            "price" : "699",
+            "img" :"https://rukminim1.flixcart.com/image/880/1056/kupuljk0/sari/e/7/1/free-hb-3-cosbila-fashion-unstitched-original-imag7s2jzunsf89c.jpeg?q=50"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+.sidebar {
+    width: 30rem;
+    min-height: 64rem;
+    position: sticky;
+    top: 4rem;
+}
