@@ -3,7 +3,7 @@ import data from "utils/data.json";
 
 export const filterInitialState = {
   products: data.products,
-  price: "",
+  price: "none",
   brands: [],
   idealFor: [],
   sizes: [],

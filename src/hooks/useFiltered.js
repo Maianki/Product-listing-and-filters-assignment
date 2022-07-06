@@ -4,7 +4,7 @@ export function useFiltered() {
     filteredProducts: { price, brands, idealFor, sizes, products },
   } = useFilter();
 
-  const originalProducts = products;
+  const originalProducts = JSON.parse(JSON.stringify(products));
 
   const sortPrductsByPrice = (originalProducts) => {
     console.log(price);
