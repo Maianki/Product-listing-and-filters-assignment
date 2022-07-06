@@ -15,7 +15,7 @@ export function Filter() {
       >
         Clear
       </button>
-      <p>PRICE</p>
+      <p className='pd-ht-1'>PRICE</p>
       <ol className='list-unstyled'>
         <li className='form-check md-vt-1'>
           <input
@@ -52,7 +52,7 @@ export function Filter() {
       </ol>
 
       <hr></hr>
-      <p>BRANDS</p>
+      <p className='pd-ht-1'>BRANDS</p>
       <ol className='list-unstyled'>
         <li className='form-check md-vt-1'>
           <input
@@ -97,7 +97,7 @@ export function Filter() {
       </ol>
 
       <hr></hr>
-      <p>IDEAL FOR</p>
+      <p className='pd-ht-1'>IDEAL FOR</p>
       <ol className='list-unstyled'>
         <li className='form-check md-vt-1'>
           <input
@@ -128,7 +128,7 @@ export function Filter() {
       </ol>
 
       <hr></hr>
-      <p>SIZE</p>
+      <p className='pd-ht-1'>SIZE</p>
       <ol className='list-unstyled'>
         <li className='form-check md-vt-1'>
           <input
