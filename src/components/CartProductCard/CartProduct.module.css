@@ -12,3 +12,6 @@
     width: 4rem;
     height: 2.8rem;
 }
+.disableBtn {
+    pointer-events: none;
+}

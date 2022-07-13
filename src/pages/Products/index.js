@@ -1,11 +1,12 @@
 import React from "react";
 import { ProductCard } from "components";
 import data from "utils/data.json";
+import styles from "./product.module.css";
 
 export default function Products() {
   return (
     <div>
-      <main className='main'>
+      <main className={styles.main}>
         <section className='products-display'>
           {data?.products?.length > 0 ? (
             data?.products?.map((product) => (

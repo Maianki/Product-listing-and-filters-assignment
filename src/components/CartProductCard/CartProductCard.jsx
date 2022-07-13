@@ -49,7 +49,11 @@ export function CartProductCard({ product, isSaveToLater = false }) {
         {!isSaveToLater && (
           <div className={`${styles.qtySection} pd-ht-1 md-vt-1`}>
             <AiFillMinusCircle
-              className={styles.qtyBtn}
+              className={
+                product.qty <= 1
+                  ? `${styles.qtyBtn} ${styles.disableBtn}`
+                  : `${styles.qtyBtn} `
+              }
               role='button'
               onClick={() =>
                 cartDispatcher({

@@ -11,16 +11,10 @@ body {
   margin: 0;
 }
 
-.main {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-}
 .products-display {
   display: flex;
   flex-wrap: wrap;
 }
-
 
 .card {
   max-height: 50rem;
