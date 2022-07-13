@@ -1,23 +1,18 @@
 import "./App.css";
-import { Navbar, ProductCard } from "components";
-import data from "utils/data.json";
+import { Navbar } from "components";
+import { Cart, Products } from "pages";
+import { Routes, Route } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 
 function App() {
-  console.log(data);
   return (
     <div className='App'>
+      <Toaster />
       <Navbar />
-      <main className='main'>
-        <section className='products-display'>
-          {data?.products?.length > 0 ? (
-            data?.products?.map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))
-          ) : (
-            <h1>No products to display</h1>
-          )}
-        </section>
-      </main>
+      <Routes>
+        <Route path='/' element={<Products />}></Route>
+        <Route path='/cart' element={<Cart />}></Route>
+      </Routes>
     </div>
   );
 }

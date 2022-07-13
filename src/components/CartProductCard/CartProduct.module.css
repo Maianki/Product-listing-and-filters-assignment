@@ -1,0 +1,14 @@
+.qtySection {
+    display: flex;
+    align-items: center;
+}
+
+.qtyBtn {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.qtyInput {
+    width: 4rem;
+    height: 2.8rem;
+}

@@ -1,6 +1,13 @@
 import React from "react";
+import { useCart } from "context/cart-context";
+import { ADD_TO_CART } from "utils/CartActions";
+import { Link } from "react-router-dom";
 
 export function ProductCard({ product }) {
+  const {
+    cartDispatcher,
+    cartState: { cart },
+  } = useCart();
 
   return (
     <div className='card align-items-center'>
@@ -16,10 +23,26 @@ export function ProductCard({ product }) {
         <p className='md-ht-1'>Rs. {product?.price}</p>
       </div>
       <div className='card-footer'>
-        <button className='card-btn btn btn-primary'>
-          <i className='fas fa-cart-plus'></i>
-          <span className='md-ht-1'>ADD TO CART</span>
-        </button>
+        {cart.find(({ id }) => id === product.id) ? (
+          <>
+            <Link to='/cart'>
+              <button className='card-btn btn btn-secondary'>
+                <span className='md-ht-1'>GO TO CART</span>
+              </button>
+            </Link>
+          </>
+        ) : (
+          <>
+            <button
+              className='card-btn btn btn-primary'
+              onClick={() =>
+                cartDispatcher({ type: ADD_TO_CART, payload: product })
+              }
+            >
+              <span className='md-ht-1'>ADD TO CART</span>
+            </button>
+          </>
+        )}
       </div>
     </div>
   );

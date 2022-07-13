@@ -26,3 +26,10 @@
 .paddingHorizontal {
     padding: 0 6px;
 }
+.headingLink {
+    color: var(--WHITE-COLOR);
+}
+
+.cartLink {
+    color: var(--WHITE-COLOR);
+}
