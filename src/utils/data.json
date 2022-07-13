@@ -8,6 +8,7 @@
             "size" : "M",
             "brand" : "FTX",
             "price" : "199",
+            "discount" : "50",
             "img" : "https://rukminim1.flixcart.com/image/580/696/l09w8sw0/t-shirt/o/a/i/m-tst-ab-36-54-ftx-original-imagc36nhgqatpfu.jpeg?q=50"
         },
         {
@@ -17,6 +18,7 @@
             "size" : "M",
             "brand" : "FTX",
             "price" : "999",
+            "discount" : "30",
             "img" : "https://rukminim1.flixcart.com/image/880/1056/krkyt8w0/sari/y/p/v/free-wedding-saree-ecolors-fab-unstitched-original-imag5c8efuhrjz9t.jpeg?q=50"
         },
         {
@@ -26,6 +28,7 @@
             "size" : "L",
             "brand" : "FARBOT",
             "price" : "499",
+            "discount" : "100",
             "img" :"https://rukminim1.flixcart.com/image/880/1056/kri3xjk0/t-shirt/g/x/3/xl-qw23ws-thefashionplus-original-imag59v5p42s4jpa.jpeg?q=50"
         },
         {
@@ -35,6 +38,7 @@
             "size" : "S",
             "brand" : "FTX",
             "price" : "299",
+            "discount":"10",
             "img" :"https://rukminim1.flixcart.com/image/880/1056/kyxb9u80/t-shirt/k/n/y/xl-t67-nbwh-eyebogler-original-imagbfyc3rkzaj2y.jpeg?q=50"
         },
         {
@@ -44,6 +48,7 @@
             "size" : "S",
             "brand" : "FARBOT",
             "price" : "799",
+            "discount":"100",
             "img" :"https://rukminim1.flixcart.com/image/880/1056/kqco5u80/kids-lehenga-choli/f/e/k/3-4-years-fp-k-bindi-f-plus-fashion-original-imag4dqfhyh3fhyj.jpeg?q=50"
         },
         {
@@ -53,6 +58,7 @@
             "size" : "L",
             "brand" : "VILLAGIUS",
             "price" : "999",
+            "discount":"200",
             "img" :"https://rukminim1.flixcart.com/image/880/1056/kpinwy80/sari/g/h/4/free-awesome-wine-villagius-unstitched-original-imag3qh5bqf38hr5.jpeg?q=50"
         },
         {
@@ -62,6 +68,7 @@
             "size" : "M",
             "brand" : "VILLAGIUS",
             "price" : "699",
+            "discount":"59",
             "img" :"https://rukminim1.flixcart.com/image/880/1056/kupuljk0/sari/e/7/1/free-hb-3-cosbila-fashion-unstitched-original-imag7s2jzunsf89c.jpeg?q=50"
         }
     ]

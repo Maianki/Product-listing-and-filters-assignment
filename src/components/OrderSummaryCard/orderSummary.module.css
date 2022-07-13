@@ -1,0 +1,21 @@
+.heading {
+    border-bottom: 1px solid #EEE;
+    padding: 1rem;
+}
+
+.orderSummary {
+    border-bottom: 1px solid #EEE;
+    padding-bottom: 2rem;
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.totalAmount {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}

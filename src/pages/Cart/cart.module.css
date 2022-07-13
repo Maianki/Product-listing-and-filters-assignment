@@ -1,3 +1,8 @@
 .carts {
     margin-bottom: 4rem
 }
+.main {
+    display: grid;
+    margin-top: 4rem;
+    grid-template-columns: 1fr 40rem;
+}
