@@ -17,7 +17,6 @@ export function ProductCard({ product }) {
       </div>
       <div className='card-footer'>
         <button className='card-btn btn btn-primary'>
-          <i className='fas fa-cart-plus'></i>
           <span className='md-ht-1'>ADD TO CART</span>
         </button>
       </div>
